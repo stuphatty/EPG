@@ -2,6 +2,8 @@
 
 Prepared 2026-10-21 for Mike Santimaw. Proposed only; nothing is entered in Adaptive.
 
+Revised 2026-10-21 (afternoon) on Mike's decisions: Document Crunch is dropped from 2027B, and Procore Datagrid AI is carried at $250,000.
+
 Sources read: the 2027B working log and overview portal (OneDrive, `2027 Draft Files`), the 67375 Software Licenses audit of 10/21, the 10/06 preliminary deck, the OpenSpace order forms and proposal (Ken Luong's 9/02 forward and Cole Brewer's 9/22 email), the Procore Datagrid thread (David Ronson 7/24, Travis Niggemyer 8/04 recap), the Procore renewal thread of 12/2025, the Document Crunch mail and Teams history, and public pricing pages for Procore AI credits and Trimble.
 
 The Obsidian vault itself was not reachable from this session (the EPG repo is empty and the vault is not synced there). The agent notes in Google Drive that reference "the TD vault" were read instead, and none of them carries a note on any of these three vendors.
@@ -12,7 +14,7 @@ The Obsidian vault itself was not reachable from this session (the EPG repo is e
 |---|---|---|---:|---|
 | Procore Datagrid AI | No line (only a "Procore Datagrid" row in the Supporting Systems list) | None | Starter Pack $27,000 / 6 months (7/23). Enterprise credit model: no quote | Travis owes a credit consumption model once TD sends project count, GB and user volume (asked 8/04, not sent) |
 | OpenSpace | No line | None in 910. 2026 spend is project-coded (PO-624815 journal in a project cost code; Multifamily contract P-30244 / P-39151) | Core 2-year order form $110,900 net (8/31, unsigned). Enterprise proposal P-42334 $275,990 / year (9/11, unsigned) | Executive meeting at Groundbreak, Thu 10/22 9:00 ET |
-| Document Crunch | No line | None | No quote, no trial, no contract. Trimble acquired the company (announced 4/02, close expected Q3 2026); Trimble has not set pricing | A trial and assessment that David Ronson flagged 4/20 has not started |
+| Document Crunch | No line | None | No quote, no trial, no contract. Trimble acquired the company (announced 4/02, close expected Q3 2026); Trimble has not set pricing | Dropped from 2027B (Mike, 10/21) |
 
 None of the three has a 2026 ancestor in 910, so the 12/7 annualization the planning app uses, and the 2026B straight-line the working log uses for 9100, do not apply. Each needs a contract-based build.
 
@@ -90,46 +92,31 @@ Annual credits = (GB indexed x 3 x 365) + task credits. Example: 30 projects at 
 | Scenario | 2027 P&L | Build |
 |---|---:|---|
 | Low: Starter Pack only, decide later | $27,000 | One-time, H1 2027, label as pilot |
-| Base: Starter Pack H1, Enterprise ramp H2 on 20 to 30 projects | $150,000 | $27,000 pilot + about $20,000 a month Jul to Dec. The $20,000 is a judgment placeholder, not a quote |
+| Base (decided 10/21): Starter Pack H1, Enterprise ramp H2 | $250,000 | $27,000 pilot one-time + $223,000 recurring, about $37,167 a month Jul to Dec. The recurring figure is a planning placeholder until Travis quotes the credit pool |
 | High: Enterprise from Q1 across the portfolio | $300,000 or more | Judgment placeholder; a Procore premium add-on for TD was priced at $210,094 a year in the 12/2025 renewal, which is the nearest comparable for an enterprise SKU |
 
-Recommendation: carry the Base, $150,000 in 9130 67375, as a new line separate from the $1,500,000 Procore line, with the $27,000 flagged one-time. Send Travis the project metrics this week so the placeholder can be replaced with a quoted credit pool before the 11/09 to 11/20 presentations. The 1/1/2027 field-wide adoption target in the 8/04 recap is not consistent with a Low scenario; if that target still stands, Base is the floor.
+Decision (Mike, 10/21): carry $250,000 in 9130 67375 as a new line separate from the $1,500,000 Procore line, with the $27,000 flagged one-time. Send Travis the project metrics this week so the placeholder can be replaced with a quoted credit pool before the 11/09 to 11/20 presentations. The 1/1/2027 field-wide adoption target in the 8/04 recap is not consistent with a Low scenario; if that target still stands, Base is the floor.
 
-Overlap to resolve: the Datagrid General Management bundle includes a Contract Reviewer agent that scans prime contracts and subcontracts for unbudgeted risk. That is Document Crunch's core use case. Decide whether Document Crunch is still needed if Datagrid is adopted, so the two lines are not both funded for the same job.
+Note: the Datagrid General Management bundle includes a Contract Reviewer agent that scans prime contracts and subcontracts for unbudgeted risk. That covers the use case Document Crunch would have served, which is why Document Crunch is dropped below.
 
-## 3. Document Crunch
+## 3. Document Crunch (dropped)
 
-### What is known
-
-- Mail history is vendor outreach only (2024 and 2025) plus Procore marketplace links. On 12/29/2025 you told Procore "let's talk Document Crunch next"; nothing followed in mail.
-- On 4/02/2026 David Ronson flagged in Teams that Trimble bought Document Crunch, and your 4/20 catch-up note says its viability for contract lifecycle management "needs trial and assessment." No trial was found.
-- Trimble has not published pricing. On its Q2 2026 call management said it is focused on adoption and engagement and expects pricing to evolve through subscriptions and usage-based consumption.
-- Workday CLM is already in the 2027 plan (the audit lists a Workday CLM order form among the contracts to check). Document Crunch is construction contract risk review, not CLM workflow, so it is additive, not a replacement.
-
-### Scenarios for 2027B
-
-| Scenario | 2027 P&L | Build |
-|---|---:|---|
-| Low: no line, decision gate only | $0 | Fund from BU Software Expansion ($240,000 in 9100) if a trial is approved mid-year |
-| Base: paid assessment H1, subscription H2 | $60,000 | Judgment placeholder; no quote exists |
-| High: enterprise subscription from Q1 | $100,000 or more | Judgment placeholder |
-
-Recommendation: do not carry a named line without a quote. Carry the Low scenario, note that the BU Software Expansion roll-up is the funding source for a 2027 trial, and ask Trimble (or Procore, as the marketplace partner) for a quote now so a named line can be added before the ELT review if you want it. If Datagrid is adopted with the Contract Reviewer agent, drop this one.
+Dropped from 2027B on Mike's decision of 10/21. There was no quote, trial or contract on file; Trimble (which acquired Document Crunch in April 2026) has not set pricing; and the Datagrid Contract Reviewer agent covers the contract risk review use case. If a trial is wanted later in 2027, the BU Software Expansion roll-up ($240,000 in 9100) is the funding source. No named line is carried.
 
 ## Summary for Adaptive
 
 | Line | CC / account | Recommended 2027B | Phasing | Status | Swing |
 |---|---|---:|---|---|---:|
 | OpenSpace Enterprise | 9130 67375 | $275,990 | $22,999 a month | Proposal P-42334 on file, unsigned; decide 10/22 | down to $53,232 |
-| Procore Datagrid AI | 9130 67375 | $150,000 | $27,000 H1 one-time + $20,000 a month Jul to Dec | Starter Pack quoted; enterprise is a placeholder | $27,000 to $300,000 |
-| Document Crunch | none | $0 | n/a | No quote; trial not started | up to $100,000 |
-| Total | | $425,990 | | | |
+| Procore Datagrid AI | 9130 67375 | $250,000 | $27,000 H1 one-time + $37,167 a month Jul to Dec | Starter Pack quoted; enterprise credit pool to be quoted | $27,000 to $300,000 |
+| Document Crunch | none | $0 | n/a | Dropped 10/21 | none |
+| Total | | $525,990 | | | |
 
 Add $18,215 of sales tax on OpenSpace if 2027B is gross. All three belong under the "Increased partner usage (AI, Procore, Autodesk)" driver on slide 2 of the 10/06 deck.
 
 ## What is needed, by owner
 
-- Mike: the OpenSpace structure decision on 10/22 (enterprise vs Multifamily-only), and whether Document Crunch survives a Datagrid adoption.
-- David Ronson: project count, GB per project and user volume to Travis Niggemyer for the credit model; a Trimble quote request for Document Crunch.
+- Mike: the OpenSpace structure decision on 10/22 (enterprise vs Multifamily-only).
+- David Ronson: project count, GB per project and user volume to Travis Niggemyer for the credit model, so the $250,000 can be replaced with a quoted credit pool.
 - Valerie Thomas: key the two new 9130 67375 lines once decided; confirm whether the 2026 reforecast needs an OpenSpace line for a November start; confirm with Controllership the prepaid treatment of any upfront payment.
 - Ken Luong / Laura Gautreau: the bridge agreement end date and the list of 2027 projects that will carry OpenSpace, so project budgets stop double-funding it.
